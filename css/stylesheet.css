@@ -1,0 +1,19 @@
+#diashow {
+    height: 1080px;
+    width: 1920px;
+    position: relative;
+    margin: 2em auto 0;
+    border: 5px solid #eee;
+    box-shadow: 1px 1px 5px 2px #777;
+}
+
+#diashow img {
+    display: none;
+    height: 1080px;
+    width: 1920px;
+    position: absolute;
+}
+
+#diashow #eins {
+    display: block;
+}

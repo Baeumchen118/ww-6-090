@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+
+    font-style: normal;
+}
+
+body {
+    background-color: #00753D;
+    width: 1080px;
+    height: 1920px;
+    font-family:  helvetica;
+}
+
+#laufschrift {
+    padding-top: 40px;
+    margin 50px;
+    color:white;
+    margin: 0 auto;
+    white-space: nowrap;
+    animation: marquee 50s linear infinite;
+}
+
+
+#video {
+    padding-top: 50px;
+    padding-left: 22px;
+}
+
+#news {
+        padding-top: 500px;
+        padding-left: 48px; 
+}
+
+body.showrss {
+    background-color: rgb(100,100,100);
+}    
+
+ 
+
+h1.rss_title {
+    margin: 0px;
+    margin-top: 2px;
+    padding: 0px;
+    font: 12pt Trebuchet MS;
+}
+
+h2.item_title {
+    margin: 0px;
+    margin-top: 2px;
+    padding: 0px;
+    font: 11pt Trebuchet MS;
+    text-decoration: underline;
+}
+
+p.rss_description {
+    margin: 0px;
+    margin-top: 2px;
+    padding: 0px;
+    font: 8pt Verdana;
+}
+
+p.item_description {
+    margin: 0px;
+    margin-top: 2px;
+    padding: 0px;
+    font: 8pt Verdana;
+}
+
+p.rss_link {
+    margin: 0px;
+    margin-top: 2px;
+    padding: 0px;
+    font: 8pt Verdana;
+}
+
+p.item_link {
+    margin: 0px;
+    margin-top: 2px;
+    padding: 0px;
+    font: 8pt Verdana;
+}
+
+p.rss_bottom {
+    margin: 0px;
+    margin-top: 2px;
+    padding: 0px;
+    font: 8pt Verdana;
+}
+
+a.rss_aheader {
+    color: #ff0000
+}
+
+a.rss_aitem {
+    color: #ff2222
+}
+
+a.rss_abottom {
+    color: #000000
+}
+
+div.rss_header {
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    margin: auto;
+}
+
+div.rss_item {
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    margin: auto;
+}
+
+div.rss_bottom {
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    margin: auto;
+}
+
+
+

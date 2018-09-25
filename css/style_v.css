@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    font-style: normal;
+}
+
+body {
+    background-color: #ffffff;
+    width: 1080px;
+    height: 1920px;
+    font-family:  helvetica;
+}
+
+p {
+    font-size: 25px;
+    margin-top: 10px;
+	line-height: 40px;
+	color: #00753E;
+}
+
+body.showrss {
+    background-color: rgb(10, 10, 10);
+}
+
+h1 {
+    font-family: Times New Roman;
+    font-weight: normal;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #00753E;
+    padding: 15px;
+    text-align: center
+}
+
+h2 {
+    font-family: Times New Roman;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #00753E;
+    text-align: center
+}
+
+h3 {
+    text-align: left;
+    font-family: Times New Roman;
+    font-weight: normal;
+    font-size: 15px;
+    color: #b24839;
+}
+
+img {
+    
+    margin: 4px 15px 4px 0px;
+    border-style: none
+}
+
+div.form {
+    width: 600px;
+    text-align: center;
+    margin: auto
+}
+
+div.feed {
+    width: 1024px;
+    text-align: justify;
+    margin: auto
+}
+
+hr.linie {
+    clear: both
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #00753E;
+}
+
+.klein {
+    font-size: 8px;
+    color: #808080;
+}
+
+.unten {
+    text-align: right;
+    font-size: 15px;
+    color: #808080;
+	line-height: normal;
+}
+
+#laufschrift {
+    padding-top: 40px;
+    margin: 50px;
+    color:black;
+    margin: 0 auto;
+    white-space: nowrap;
+    animation: marquee 50s linear infinite;
+    font-size: 25px;
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { text-indent: 27.5em }
+    100% { text-indent: -105em }
+}
+
+#laufschrift h1{
+    font-size: 26px;
+}
+
+
+#video {
+    	padding-top: 50px;
+	padding-left: 28px;
+}
+
+.doc img {
+	
+
+	
+}
+
+.plakat {
+
+	width: 1080px;
+    height: 1117px;
+	padding-left: 0px;
+}
+

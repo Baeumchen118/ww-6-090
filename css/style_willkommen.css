@@ -1,0 +1,28 @@
+.scrollrahmen {
+    width: 1080px;
+    height: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #eeeeee;
+    position: relative;
+    box-sizing: border-box;
+	padding: 5px;
+}
+ 
+.scrollinhalt {
+    position: relative;
+    box-sizing: border-box;
+    animation: scrollinhalt 20s linear infinite;
+	text-align: center;
+	font-size: 50px;
+	
+}
+ 
+.scrollinhalt:hover {
+    animation-play-state: paused;
+}
+ 
+@keyframes scrollinhalt {
+    0%   { top:  500px; }
+    100% { top: -570px; }
+}
