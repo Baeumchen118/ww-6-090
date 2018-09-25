@@ -1,6 +1,6 @@
 function updateTime() {
 	var date = new Date();
-	var stunden = (date.getHours(date)-1);
+	var stunden = (date.getHours(date));
 	var minuten = date.getMinutes();
 	var tag = date.getDate();
 	var sekunden = date.getSeconds();
@@ -12,7 +12,7 @@ function updateTime() {
 
 
 
-	var datum = "Willkommen in der Fakultät Wirtschaftsingeneurwesen" + " " + "Heute" + " " + wochentag[tagInWoche] + ", " + tag + ". " + monat[monatDesJahres] + " " + jahr;
+	var datum = "Willkommen in der Fakultät Wirtschaftsingeneurwesen" + " " + "Heute" + " " + stunden + ":" + minuten + ":" + sekunden + " " + wochentag[tagInWoche] + ", " + tag + ". " + monat[monatDesJahres] + " " + jahr;
 //	var datum = "Willkommen in der Fakultät Wirtschaftsingeneurwesen" + " " + "Heute" + " " + wochentag[tagInWoche] + ", " + tag + ". " + monat[monatDesJahres];
 	document.getElementById('time').innerHTML = datum;
 	setTimeout(updateTime, 1000);

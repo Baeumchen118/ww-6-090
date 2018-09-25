@@ -48,7 +48,7 @@ body {
 	text-align: center;
 }     
 
-.header {
+.head {
     background-image: url("../img/Header_Haus6.jpg") ;
     background-repeat:no-repeat;
     height: 293;
@@ -56,7 +56,7 @@ body {
     margin: 0px auto;
 }
 
-.header img {
+.head img {
     display: block;
     width: 500px;
     height: 293px;
