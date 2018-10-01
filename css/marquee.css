@@ -23,12 +23,16 @@ body {
 }
 
 
-marquee{
-
-	height:400px;
-	font-size: 50px;
-        color: #ffffff;
+marquee {
+	height:95px;
+	font-size: 80px;
+    color: #00753e;
 	text-align: center;
-	margin-top: 60px;
+	margin: 20px;
+	background-color: white;
 }
+
+.video {
+	padding: 0 20px;
+	}
 
